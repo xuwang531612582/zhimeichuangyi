@@ -1,0 +1,84 @@
+
+	*{
+		margin:0px;
+		padding:0px;
+	}
+
+	/*   ¶¥²¿   */
+	.box1{
+		width:100%;
+		height:35px;
+		background:url("../img/top1.png");
+	}
+	.w{
+		position:relative;
+		width:1000px;
+		margin:0px auto;
+	}
+	.box1-1{
+		position:absolute;
+		top:8px;
+		right:0px;
+		width:230px;
+		height:20px;
+		font:15px/20px "ºÚÌå";
+		font-weight:bold;
+		text-indent:0.5em;
+	}
+	.box1-1 img{
+		float:left;
+	}
+
+
+	/*   µ¼º½À¸   */
+	.box2{
+		width:100%;
+		height:110px;
+	}
+	.box2-1{
+		position:absolute;
+		top:50px;
+		left:50px;
+		width:180px;
+		height:40px;
+		font:40px/40px "ºÚÌå";
+		font-weight:bold;
+		color:#F00;
+	}
+	.box2-2{
+		position:absolute;
+		top:50px;
+		right:40px;
+		width:650px;
+		height:40px;
+	}
+	.box2-2 li{
+		float:left;
+		width:105px;
+		height:20px;
+		text-align:center;
+		font:15px/20px "ºÚÌå";
+		list-style:none;
+	}
+	.box2-2 ul .lib{
+		border-right:2px solid black;
+	}
+	.box2-2 li a{
+		display:block;
+		width:100px;
+		height:35px;
+		text-decoration:none;
+		color:black;
+	}
+	.box2-2 li a:hover{
+		font-weight:bold;
+		border-bottom:3px solid black;
+	}
+	/*   ±³¾°Í¼Æ¬   */
+
+	.box3{
+		width:100%;
+		height:402px;
+		background:url("../img/banner.gif") no-repeat center 0;
+		background-size:100% 100%;/*  ±³¾°Í¼Æ¬ºáÏò×ÝÏòÌî³ä  */
+	}
