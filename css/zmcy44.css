@@ -82,3 +82,18 @@
 		background:url("../img/banner.gif") no-repeat center 0;
 		background-size:100% 100%;/*  ±³¾°Í¼Æ¬ºáÏò×İÏòÌî³ä  */
 	}
+
+
+
+	.box4{
+		width:900px;
+		height:112px;
+		margin:50px auto;
+	}
+	.box4 ul li{
+		float:left;
+		width:111px;
+		height:112px;
+		margin-left:56px;
+		list-style:none;
+	}
