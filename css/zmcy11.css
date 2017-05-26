@@ -86,8 +86,42 @@
 		width:100%;
 		height:402px;
 		background:url("../img/banner.gif") no-repeat center 0;
-		background-size:100%;
+		background-size:100% 100%;
+		padding-top:20px;
 	}
+	.box3-1{
+		width:555px;
+		height:100px;
+		margin:0 auto;
+		border:1px solid red;
+	}
+	.box31-1{
+		float:left;
+		width:80px;
+		height:80px;
+		margin:10px 0 0 10px;
+		background:red;
+		font:35px/40px "黑体";
+		text-align:center;
+		color:white;
+	}
+	.box31-2{
+		float:left;
+		width:320px;
+		height:80px;
+		margin:10px 0 0 10px;
+		font:80px/80px "黑体";
+		color:white;
+	}
+	.box31-3{
+		float:left;
+		width:110px;
+		height:80px;
+		margin:10px 0 0 10px;
+		font:27px/40px "黑体";
+		color:white;
+	}
+	
 
 
 
@@ -151,19 +185,23 @@
 	.box415 .pd{
 		font-size:25px;
 	}
+
+
+	/*   底部   */
 	.footbox{
 		width:100%;
 		height:100px;
 		background:#EAEAEA;
+		padding:44px 0 10px 0;
 	}
 	.foot{
-		position:absolute;
-		top:30px;
-		left:360px;
 		width:300px;
 		height:60px;
+	
+		margin:0 auto;
 		text-align:center;
 		font:15px/15px "黑体";
+		
 	}
 	.foot p{
 		margin:3px 0;
