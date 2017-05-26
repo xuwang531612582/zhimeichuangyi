@@ -141,3 +141,38 @@
 		height:30px;
 		margin-top:7px;
 	}
+
+	.box5{
+		position:absolute;
+		top:20px;
+		right:10px;
+		width:720px;
+		height:400px;
+		border:1px solid red;
+	}
+	.box5 p{
+		text-align:center;
+		font:20px/30px "黑体";
+	}
+	.box5 .box5p{
+		font-size:25px;
+	}
+	.box5-1{
+		width:720px;
+		height:75px;
+		border-bottom:1px dashed #9C9C9C;
+	}
+	.box5-1 ul li{
+		float:left;
+		width:88px;
+		height:25px;
+		list-style:none;
+		border:1px dashed blue;
+		line-height:28px;
+	}
+	.box5-1 ul li img{
+		float:left;
+	}
+	.box5-1 ul li p{
+		font-size:14px;
+	}
