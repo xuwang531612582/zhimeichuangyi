@@ -4,7 +4,7 @@
 		padding:0px;
 	}
 
-	/*   ¶¥²¿   */
+	/*   é¡¶éƒ¨   */
 	.box1{
 		width:100%;
 		height:35px;
@@ -21,7 +21,7 @@
 		right:0px;
 		width:230px;
 		height:20px;
-		font:15px/20px "ºÚÌå";
+		font:15px/20px "é»‘ä½“";
 		font-weight:bold;
 		text-indent:0.5em;
 	}
@@ -30,7 +30,7 @@
 	}
 
 
-	/*   µ¼º½À¸   */
+	/*   å¯¼èˆªæ    */
 	.box2{
 		width:100%;
 		height:110px;
@@ -41,7 +41,7 @@
 		left:50px;
 		width:180px;
 		height:40px;
-		font:40px/40px "ºÚÌå";
+		font:40px/40px "é»‘ä½“";
 		font-weight:bold;
 		color:#F00;
 	}
@@ -52,13 +52,15 @@
 		width:650px;
 		height:40px;
 	}
+	ul li{
+		list-style:none;
+	}
 	.box2-2 li{
 		float:left;
 		width:105px;
 		height:20px;
 		text-align:center;
-		font:15px/20px "ºÚÌå";
-		list-style:none;
+		font:15px/20px "é»‘ä½“";
 	}
 	.box2-2 ul .lib{
 		border-right:2px solid black;
@@ -74,17 +76,19 @@
 		font-weight:bold;
 		border-bottom:3px solid black;
 	}
-	/*   ±³¾°Í¼Æ¬   */
+	/*   èƒŒæ™¯å›¾ç‰‡   */
 
 	.box3{
 		width:100%;
 		height:402px;
 		background:url("../img/banner.gif") no-repeat center 0;
-		background-size:100% 100%;/*  ±³¾°Í¼Æ¬ºáÏò×İÏòÌî³ä  */
+		background-size:100% 100%;/*  èƒŒæ™¯å›¾ç‰‡æ¨ªå‘çºµå‘å¡«å……  */
 	}
 
 
+	/*  ä¸­éƒ¨åˆ†äº”éƒ¨åˆ†  */
 
+	/*  1.ä¸€éƒ¨åˆ†  */
 	.box4{
 		width:900px;
 		height:112px;
@@ -96,4 +100,196 @@
 		height:112px;
 		margin-left:56px;
 		list-style:none;
+	}
+	
+
+	/*  2.äºŒéƒ¨åˆ†  */
+	.box4-1{
+		width:920px;
+		height:30px;
+		margin:30px auto;
+		background:#2D3237;
+		text-align:center;
+	}
+	.box4-1 span{
+		font:30px/30px "é»‘ä½“";
+		color:#FF0000;
+	}
+	.box41-2{
+		position:absolute;
+		top:36px;
+		left:49px;
+		width:409px;
+		height:9px;
+		border-bottom:1px solid #2D3237;
+	}
+	.box41-3{
+		position:absolute;
+		top:38px;
+		right:465px;
+		width:65px;
+		height:18px;
+		font:15px/15px "simhei";
+	}
+	.box41-4{
+		position:absolute;
+		top:36px;
+		right:49px;
+		width:409px;
+		height:9px;
+		border-bottom:1px solid #2D3237;
+	}
+	.box5{
+		width:928px;
+		height:301px;
+		margin:70px auto;
+	}
+	.box5 ul li{
+		float:left;
+		width:181px;
+		height:301px;
+		margin-left:4px;
+	}
+
+
+	/*  3.ä¸‰éƒ¨åˆ†  */
+	.box6-1{
+		width:920px;
+		height:30px;
+		margin:30px auto;
+		background:#2D3237;
+		text-align:center;
+	}
+	.box6-1 span{
+		font:30px/30px "é»‘ä½“";
+	}
+	.box6-1 .span1{
+		color:#FF0000;
+	}
+	.box6-1 .span2{
+		color:white;
+	}
+	.box61-2{
+		position:absolute;
+		top:36px;
+		left:49px;
+		width:409px;
+		height:9px;
+		border-bottom:1px solid #2D3237;
+	}
+	.box61-4{
+		position:absolute;
+		top:36px;
+		right:49px;
+		width:409px;
+		height:9px;
+		border-bottom:1px solid #2D3237;
+	}
+	.box61-3{
+		position:absolute;
+		top:38px;
+		right:465px;
+		width:65px;
+		height:18px;
+		font:15px/15px "simhei";
+	}
+	.box615{
+		text-align:center;
+		margin-top:42px;
+	}
+	.box615 .p1{
+		margin:10px 0px;
+		font:20px/20px "simhei";
+	}
+	.box615 p span{
+		font-weight:bold;
+		font-size:25px;
+	}
+	.box615 .pd{
+		font-size:25px;
+	}
+	
+
+
+	/*  4.å››éƒ¨åˆ†  */
+	.box7-1{
+		width:920px;
+		height:30px;
+		margin:80px auto;
+		background:#2D3237;
+		text-align:center;
+	}
+	.box7-1 span{
+		font:30px/30px "é»‘ä½“";
+	}
+	.box7-1 .span1{
+		color:#FF0000;
+	}
+	.box7-1 .span2{
+		color:white;
+	}
+	.box71-2{
+		position:absolute;
+		top:36px;
+		left:49px;
+		width:409px;
+		height:9px;
+		border-bottom:1px solid #2D3237;
+	}
+	.box71-4{
+		position:absolute;
+		top:36px;
+		right:49px;
+		width:409px;
+		height:9px;
+		border-bottom:1px solid #2D3237;
+	}
+	.box71-3{
+		position:absolute;
+		top:38px;
+		right:465px;
+		width:65px;
+		height:18px;
+		font:15px/15px "simhei";
+	}
+
+
+	/*  5.äº”éƒ¨åˆ†  */
+	.box8{
+		width:773px;
+		height:30px;
+		margin:-20px auto;
+		padding-left:50px;
+	}
+	.box8 ul li{
+		float:left;
+		width:177px;
+		height:30px;
+	}
+	.box8 ul li img{
+		float:left;
+	}
+	.box8 ul li div{
+		font:13px/30px "é»‘ä½“";
+	}
+
+
+	/*  åº•éƒ¨  */
+	.footbox{
+		width:100%;
+		height:70px;
+		margin-top:100px;
+		background:#EAEAEA;
+		padding:44px 0 10px 0;
+	}
+	.foot{
+		width:300px;
+		height:60px;
+		margin:0 auto;
+		text-align:center;
+		font:15px/15px "é»‘ä½“";
+		
+	}
+	.foot p{
+		margin:3px 0;
 	}

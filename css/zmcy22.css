@@ -93,6 +93,7 @@
 		font:15px/25px "黑体";
 		text-indent:1em;/*  缩进字体1个汉字距离  */
 	}
+
 	.box4-2{
 		width:900px;
 		height:1510px;
@@ -109,6 +110,23 @@
 	.box4-2 ul li p{
 		margin-top:5px;
 		font:13px/13px "simhei";
+	}
+	.box4-3{
+		width:240px;
+		height:40px;
+		margin:0px auto;
+	}
+	.box4-3 span{
+		margin:0;
+		padding:0;
+	}
+	.box4-3 span a{
+		text-decoration:none;
+		color:black;
+	}
+	.box4-3 span a:hover{
+		font-weight:bold;
+		color:blue;
 	}
 
 
@@ -130,20 +148,4 @@
 	.foot p{
 		margin:3px 0;
 	}
-	.box4-3{
-		width:240px;
-		height:40px;
-		margin:0px auto;
-	}
-	.box4-3 span{
-		margin:0;
-		padding:0;
-	}
-	.box4-3 span a{
-		text-decoration:none;
-		color:black;
-	}
-	.box4-3 span a:hover{
-		font-weight:bold;
-		color:blue;
-	}
+	
