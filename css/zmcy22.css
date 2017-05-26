@@ -1,0 +1,134 @@
+
+	*{
+		margin:0px;
+		padding:0px;
+	}
+
+	/*   顶部   */
+	.box1{
+		width:100%;
+		height:35px;
+		background:url("../img/top1.png");
+	}
+	.w{
+		position:relative;
+		width:1000px;
+		margin:0px auto;
+	}
+	.box1-1{
+		position:absolute;
+		top:8px;
+		right:0px;
+		width:230px;
+		height:20px;
+		font:15px/20px "黑体";
+		font-weight:bold;
+		text-indent:0.5em;
+	}
+	.box1-1 img{
+		float:left;
+	}
+
+
+	/*   导航栏   */
+	.box2{
+		width:100%;
+		height:110px;
+	}
+	.box2-1{
+		position:absolute;
+		top:50px;
+		left:50px;
+		width:180px;
+		height:40px;
+		font:40px/40px "黑体";
+		font-weight:bold;
+		color:#F00;
+	}
+	.box2-2{
+		position:absolute;
+		top:50px;
+		right:40px;
+		width:650px;
+		height:40px;
+	}
+	.box2-2 li{
+		float:left;
+		width:105px;
+		height:20px;
+		text-align:center;
+		font:15px/20px "黑体";
+		list-style:none;
+	}
+	.box2-2 ul .lib{
+		border-right:2px solid black;
+	}
+	.box2-2 li a{
+		display:block;
+		width:100px;
+		height:35px;
+		text-decoration:none;
+		color:black;
+	}
+	.box2-2 li a:hover{
+		font-weight:bold;
+		border-bottom:3px solid black;
+	}
+	/*   背景图片   */
+
+	.box3{
+		width:100%;
+		height:402px;
+		background:url("../img/banner.gif") no-repeat center 0;
+		background-size:100% 100%;
+	}
+
+
+	/*  中间部分  */
+	.box4-1{
+		width:900px;
+		height:25px;
+		border-bottom:1px solid #ADADAD;
+		margin:14px auto;
+		font:15px/25px "黑体";
+		text-indent:1em;/*  缩进字体1个汉字距离  */
+	}
+	.box4-2{
+		width:900px;
+		height:1550px;
+		margin:14px auto;
+	}
+	.box4-2 li{
+		float:left;
+		width:174px;
+		height:150px;
+		text-align:center;
+		list-style:none;
+		margin:0px 3px;
+	}
+	.box4-2 ul li p{
+		margin-top:5px;
+		font:13px/13px "simhei";
+	}
+
+
+	/*   底部   */
+	.footbox{
+		width:100%;
+		height:70px;
+		background:#EAEAEA;
+		padding:44px 0 10px 0;
+	}
+	.foot{
+		width:300px;
+		height:60px;
+	
+		margin:0 auto;
+		text-align:center;
+		font:15px/15px "黑体";
+		
+	}
+	.foot p{
+		margin:3px 0;
+	}
+	
