@@ -91,10 +91,17 @@
 	}
 
 
+	
+	.qcfd{
+		width:100%;
+		margin:0 auto;
+		clear:both;
+	}
 	.box4{
-		width:230px;
-		height:400px;
-		margin-top:32px;
+		position:absolute;
+		top:20px;
+		left:10px;
+		clear:both;
 	}
 	.box4-1{
 		width:220px;
@@ -138,19 +145,20 @@
 
 	.box4-4{
 		width:220px;
-		height:30px;
+		height:57px;
 		margin-top:7px;
 	}
 
 	.box5{
+		clear:both;
 		position:absolute;
 		top:20px;
 		right:10px;
 		width:720px;
-		height:400px;
+		height:615px;
 		border:1px solid red;
 	}
-	.box5 p{
+	.box5 .box5p2,.box5 .box5p{
 		text-align:center;
 		font:20px/30px "黑体";
 	}
@@ -159,15 +167,15 @@
 	}
 	.box5-1{
 		width:720px;
-		height:75px;
+		height:70px;
 		border-bottom:1px dashed #9C9C9C;
+		clear:both;
 	}
 	.box5-1 ul li{
 		float:left;
 		width:88px;
 		height:25px;
 		list-style:none;
-		border:1px dashed blue;
 		line-height:28px;
 	}
 	.box5-1 ul li img{
@@ -175,4 +183,55 @@
 	}
 	.box5-1 ul li p{
 		font-size:14px;
+	}
+	.box6{
+		width:720px;
+		height:50px;
+		margin-top:7px;
+	}
+	.box6,.box7,.box8,.box9,.box10{
+		font:10px/15px "黑体";
+	}
+	.box6,.box7,.box8,.box9,.box10{
+		width:720px;
+	}
+	.box7{
+		height:100px;
+	}
+	.box8{
+		height:90px;
+	}
+	.box9{
+		height:110px;
+	}
+	.box10{
+		height:80px;
+	}
+	.box11{
+		height:30px;
+		text-align:center;
+		border-bottom:1px dashed red;
+	}
+
+
+
+	/*   底部  */
+	.footbox{
+		clear:both;
+		width:100%;
+		height:100px;
+		background:#EAEAEA;
+		padding:44px 0 10px 0;
+	}
+	.foot{
+		width:300px;
+		height:60px;
+	
+		margin:0 auto;
+		text-align:center;
+		font:15px/15px "黑体";
+		
+	}
+	.foot p{
+		margin:3px 0;
 	}
