@@ -91,6 +91,12 @@
 	}
 
 	
+
+	 /* 中部  1.在线客服   2.标题   3.网址链接   4.内容介绍    5.按钮   */
+	
+
+	/*   1.在线客服   */
+
 	.boxw{
 		margin-top:30px;
 	}
@@ -103,10 +109,6 @@
 		border-bottom:2px solid #9C9C9C;
 		font:17px/30px "黑体";
 	}
-	
-	
-
-
 	.box4-2{
 		width:220px;
 		height:62px;
@@ -122,9 +124,6 @@
 	.box42-2{
 		clear:both;
 	}
-
-
-
 	
 	.box4-3{
 		width:220px;
@@ -136,16 +135,15 @@
 		margin-top:10px;
 		font-size:14px;
 	}
-
-
-
-
 	.box4-4{
 		width:220px;
 		height:57px;
 		margin-top:7px;
 	}
+	
 
+
+	/*  2.标题   */
 	.box5{
 		float:right;
 		width:720px;
@@ -158,6 +156,10 @@
 	.box5 .box5p{
 		font-size:25px;
 	}
+
+
+
+	/*   3.网址链接   */
 	.box5-1{
 		width:720px;
 		height:70px;
@@ -177,6 +179,12 @@
 	.box5-1 ul li p{
 		font-size:14px;
 	}
+
+
+
+	
+	/*   4.内容介绍   */
+	
 	.box6{
 		width:720px;
 		height:50px;
@@ -200,6 +208,10 @@
 	.box10{
 		height:80px;
 	}
+
+
+	/*    5.按钮   */
+	
 	.box11{
 		height:30px;
 		text-align:center;
