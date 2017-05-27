@@ -90,18 +90,12 @@
 		padding-top:20px;
 	}
 
-
 	
-	.qcfd{
-		width:100%;
-		margin:0 auto;
-		clear:both;
+	.boxw{
+		margin-top:30px;
 	}
 	.box4{
-		position:absolute;
-		top:20px;
-		left:10px;
-		clear:both;
+		float:left;
 	}
 	.box4-1{
 		width:220px;
@@ -124,6 +118,9 @@
 	}
 	.box42-1 img,.box42-2 img,.box4-3 img,.box4-4 img{
 		float:left;
+	}
+	.box42-2{
+		clear:both;
 	}
 
 
@@ -150,13 +147,9 @@
 	}
 
 	.box5{
-		clear:both;
-		position:absolute;
-		top:20px;
-		right:10px;
+		float:right;
 		width:720px;
 		height:615px;
-		border:1px solid red;
 	}
 	.box5 .box5p2,.box5 .box5p{
 		text-align:center;
@@ -210,7 +203,6 @@
 	.box11{
 		height:30px;
 		text-align:center;
-		border-bottom:1px dashed red;
 	}
 
 
